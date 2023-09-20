@@ -97,7 +97,7 @@ public class MBTISQL {
     // 3-3. MBTI 유형 분류 메소드
     public String classify(List<Integer> list) {
         String newType = "";
-        ArrayList<Integer> uType = new ArrayList<Integer>();
+        ArrayList<Integer> uType = new ArrayList<Integer>(); // 원래없던거
         String ans = null;
         int cntEI = 0;
         int cntNS = 0;
